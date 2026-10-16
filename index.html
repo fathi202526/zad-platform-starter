@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="منصة زاد للدعم المدرسي">
+  <title>منصة زاد للدعم المدرسي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">ز</span><span>منصة زاد<small>للدعم المدرسي</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    <nav id="mainNav">
+      <a href="#home">الرئيسية</a><a href="#courses">المواد والدروس</a><a href="#resources">الوثائق</a><a href="#about">عن المنصة</a>
+    </nav>
+    <div class="top-actions"><button class="btn btn-light" id="loginBtn">تسجيل الدخول</button><a class="btn btn-primary" href="#courses">ابدأ التعلم</a></div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="dot"></span> طريقك نحو فهم أفضل</span>
+        <h1>تعلّم اليوم،<br><em>وتقدّم كل يوم.</em></h1>
+        <p>كل ما تحتاجه لتطوير مستواك الدراسي في مكان واحد: دروس منظمة، موارد مفيدة، وخطوات واضحة نحو النجاح.</p>
+        <div class="hero-actions"><a class="btn btn-primary btn-large" href="#courses">اكتشف الدروس <span>←</span></a><a class="text-link" href="#about">تعرّف على زاد <span>↗</span></a></div>
+        <div class="hero-stats"><div><strong>دروس منظمة</strong><small>تعلّم حسب مستواك</small></div><div><strong>موارد تعليمية</strong><small>ملفات وملخصات</small></div><div><strong>تعلّم بمرونة</strong><small>من أي جهاز</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="book-card"><div class="book-icon">✦</div><span class="book-label">مساحة تعلّمك</span><h3>خطوة صغيرة<br>كل يوم تصنع فرقًا.</h3><div class="book-lines"><i></i><i></i><i></i></div><div class="book-bottom"><span>منصة زاد</span><span>✧</span></div></div>
+        <div class="float-note note-top"><span>✓</span><div><b>تعلّم منظّم</b><small>على وتيرتك الخاصة</small></div></div>
+        <div class="float-note note-bottom"><span class="note-star">✦</span><div><b>المعرفة أقرب</b><small>دروس وملخصات</small></div></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div><span class="section-tag">لماذا زاد؟</span><h2>مساحة تساعدك<br>على التقدّم بثقة.</h2></div>
+      <p>صُممت منصة زاد لتجعل الوصول إلى المحتوى التعليمي أسهل، وتساعد التلميذ على تنظيم تعلّمه ومراجعة دروسه في تجربة بسيطة وواضحة.</p>
+    </section>
+
+    <section class="section courses-section" id="courses">
+      <div class="section-heading"><div><span class="section-tag">ابدأ رحلتك</span><h2>ماذا تريد أن تتعلّم؟</h2></div><span class="muted">محتوى تجريبي قابل للتعديل</span></div>
+      <div class="course-grid" id="courseGrid">
+        <article class="course-card"><div class="course-symbol symbol-green">ع</div><span class="course-level">اللغة العربية</span><h3>مهارات الفهم والتعبير</h3><p>مراجعة المفاهيم الأساسية وتنمية مهارات الكتابة.</p><button class="course-link" data-course="اللغة العربية">عرض المادة <span>←</span></button></article>
+        <article class="course-card"><div class="course-symbol symbol-gold">∑</div><span class="course-level">الرياضيات</span><h3>فهم القواعد خطوة بخطوة</h3><p>شرح مبسّط وتمارين تساعد على ترسيخ الفهم.</p><button class="course-link" data-course="الرياضيات">عرض المادة <span>←</span></button></article>
+        <article class="course-card"><div class="course-symbol symbol-blue">EN</div><span class="course-level">اللغة الإنجليزية</span><h3>طوّر مهاراتك اللغوية</h3><p>مفردات وقواعد وتطبيقات للمراجعة المستمرة.</p><button class="course-link" data-course="اللغة الإنجليزية">عرض المادة <span>←</span></button></article>
+      </div>
+    </section>
+
+    <section class="section resource-section" id="resources">
+      <div class="resource-panel"><div><span class="section-tag light-tag">مكتبة زاد</span><h2>مواردك التعليمية<br>في مكان واحد.</h2><p>أضف ملخصاتك ووثائقك التعليمية وارجع إليها وقتما تحتاج.</p></div><div class="resource-icon">▤</div></div>
+      <div class="resource-list"><div class="resource-item"><span class="file-icon">PDF</span><div><b>ملخصات الدروس</b><small>ملفات مراجعة منظمة</small></div><span class="resource-arrow">↙</span></div><div class="resource-item"><span class="file-icon file-doc">DOC</span><div><b>أوراق العمل</b><small>تطبيقات وأنشطة تعليمية</small></div><span class="resource-arrow">↙</span></div><div class="resource-item"><span class="file-icon file-note">✎</span><div><b>ملاحظات المراجعة</b><small>مساحة لتجميع الأفكار</small></div><span class="resource-arrow">↙</span></div></div>
+      <p class="demo-note">هذه الواجهة نموذج أولي؛ تنزيل الملفات وإدارتها يحتاجان إلى ربط قاعدة البيانات والتخزين.</p>
+    </section>
+
+    <section class="cta-section"><div><span class="section-tag">ابدأ من هنا</span><h2>كل يوم فرصة جديدة للتعلّم.</h2><p>اجعل خطوتك التالية بداية تقدّمك.</p></div><button class="btn btn-primary btn-large" id="ctaBtn">إنشاء حساب تجريبي <span>←</span></button></section>
+  </main>
+
+  <footer id="footer"><a class="brand footer-brand" href="#"><span class="brand-mark">ز</span><span>منصة زاد<small>للدعم المدرسي</small></span></a><span>© <span id="year"></span> منصة زاد للدعم المدرسي</span><span>التعلّم رحلة، وزادك المعرفة.</span></footer>
+
+  <dialog id="infoDialog" class="info-dialog"><button class="dialog-close" id="dialogClose" aria-label="إغلاق">×</button><div class="dialog-mark">ز</div><h2 id="dialogTitle">أهلًا بك في زاد</h2><p id="dialogText">هذه نسخة أولية للواجهة. سنضيف الحسابات الحقيقية والدروس والملفات بعد ربط قاعدة البيانات.</p><button class="btn btn-primary" id="dialogOk">حسنًا</button></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
